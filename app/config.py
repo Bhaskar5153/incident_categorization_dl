@@ -17,6 +17,8 @@ class Settings(BaseSettings):
     pg_schema: str = "public"
     pg_table: str = "it_support_tickets"
 
+    model_path: Path = Path("artifacts/ticket_category_model.pkl")
+
     
     
 
